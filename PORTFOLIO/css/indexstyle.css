@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 30px;
+}
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Para animar suavemente cualquier cambio */
+  }
+  
+
+.nav-left a:hover {
+    background-color: rgb(178, 185, 185);
+    font-size: 1.2em; /* Aumenta el tamaño */
+    transition: all 0.3s ease; /* Suaviza el cambio */
+    padding: 10px 15px; /* Agrega un poco de espacio alrededor del texto */
+    border-radius: 9px; /* redondea los bordes */
+  }
+  
+
+.nav-right .logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo{
+    background-color: white;
+    width: 300px;
+    border-radius: 30px;
+}
+body{
+background-image: url("../img/fondo body.jpg");
+background-size: cover;
+}
+
+.presentacion{
+  font-family: "Rock 3D", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
